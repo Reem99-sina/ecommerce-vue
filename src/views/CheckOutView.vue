@@ -1,13 +1,13 @@
 <template>
-  <div class="flex pt-6 items-center justify-center min-h-[80vh] gap-6">
+  <div class="flex pt-6 items-center justify-center min-h-[80vh] gap-6 flex-wrap  md:flex-nowrap">
     <div class="flex-2">
       <h3 class="font-bold text-2xl">{{ $t('checkout') }}</h3>
       <div class="py-5">
-        <TabCoustom :tabsComponent="tabs" clickDisable="true"/>
+        <TabCoustom :tabsComponent="tabs" clickDisable="true" />
       </div>
     </div>
     <div class="flex-1">
-      <OrderCart checkout="false"/>
+      <OrderCart checkout="false" />
     </div>
   </div>
 </template>
