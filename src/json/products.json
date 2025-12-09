@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "name": "Floral Summer Dress",
+    "price": 45.99,
+    "old_price": 59.99,
+    "category": "Dresses",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Red", "Blue", "White"],
+    "rating": 4.6,
+    "stock": 25,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"
+    ],
+    "description": "Lightweight floral print dress with adjustable straps, perfect for summer outings."
+  },
+  {
+    "id": 2,
+    "name": "Casual Cotton T-Shirt",
+    "price": 19.99,
+    "old_price": 25.99,
+    "category": "Tops",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["White", "Pink", "Black"],
+    "rating": 4.2,
+    "stock": 70,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Soft breathable cotton T-shirt suitable for everyday wear."
+  },
+  {
+    "id": 3,
+    "name": "High-Waist Skinny Jeans",
+    "price": 39.99,
+    "old_price": 49.99,
+    "category": "Bottoms",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Blue", "Black"],
+    "rating": 4.4,
+    "stock": 40,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+      "/images/products/jeans1-2.jpg"
+    ],
+    "description": "Stretchy skinny jeans with high waist fit providing comfort and style."
+  },
+  {
+    "id": 4,
+    "name": "Elegant Evening Gown",
+    "price": 120.00,
+    "old_price": 149.00,
+    "category": "Dresses",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "Emerald"],
+    "rating": 4.8,
+    "stock": 12,
+    "images": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"
+    ],
+    "description": "Elegant full-length gown with a fitted waist, ideal for formal events."
+  },
+  {
+    "id": 5,
+    "name": "Oversized Hoodie",
+    "price": 34.50,
+    "old_price": 45.00,
+    "category": "Hoodies",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Grey", "Black", "Brown"],
+    "rating": 4.7,
+    "stock": 55,
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246"
+    ],
+    "description": "Cozy oversized hoodie made with premium soft fleece fabric."
+  },
+  {
+    "id": 6,
+    "name": "Classic Denim Jacket",
+    "price": 58.00,
+    "old_price": 70.00,
+    "category": "Jackets",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Blue"],
+    "rating": 4.5,
+    "stock": 20,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Timeless denim jacket that pairs with any outfit."
+  },
+  {
+    "id": 7,
+    "name": "Pleated Midi Skirt",
+    "price": 29.99,
+    "old_price": 39.99,
+    "category": "Skirts",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Pink", "Navy", "Green"],
+    "rating": 4.3,
+    "stock": 30,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Light pleated skirt with elastic waist for a comfortable fit."
+  },
+  {
+    "id": 8,
+    "name": "Soft Knit Sweater",
+    "price": 32.99,
+    "old_price": 44.99,
+    "category": "Sweaters",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Beige", "White"],
+    "rating": 4.6,
+    "stock": 36,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Warm knitted sweater perfect for cold weather."
+  },
+  {
+    "id": 9,
+    "name": "Sport Leggings",
+    "price": 24.99,
+    "old_price": 29.99,
+    "category": "Activewear",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Black", "Purple"],
+    "rating": 4.1,
+    "stock": 80,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "High-stretch leggings ideal for workouts or casual wear."
+  },
+  {
+    "id": 10,
+    "name": "Long Coat",
+    "price": 99.00,
+    "old_price": 120.00,
+    "category": "Coats",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Camel", "Black"],
+    "rating": 4.8,
+    "stock": 15,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Stylish long coat crafted to keep you warm and fashionable."
+  },
+  {
+    "id": 11,
+    "name": "Silk Blouse",
+    "price": 42.00,
+    "old_price": 55.00,
+    "category": "Tops",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Ivory", "Black"],
+    "rating": 4.5,
+    "stock": 22,
+    "images": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"
+    ],
+    "description": "Elegant silk blouse perfect for office or dinner wear."
+  },
+  {
+    "id": 12,
+    "name": "Ripped Mom Jeans",
+    "price": 44.99,
+    "old_price": 55.99,
+    "category": "Bottoms",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Light Blue"],
+    "rating": 4.4,
+    "stock": 28,
+    "images": [
+      "https://images.unsplash.com/photo-1583001301466-0f444d8e6a5b"
+    ],
+    "description": "Trendy ripped mom jeans with relaxed fit."
+  },
+  {
+    "id": 13,
+    "name": "Casual Crop Top",
+    "price": 14.99,
+    "old_price": 19.99,
+    "category": "Tops",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["White", "Black", "Green"],
+    "rating": 4.0,
+    "stock": 90,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Simple cotton crop top for casual summer days."
+  },
+  {
+    "id": 14,
+    "name": "High Neck Pullover",
+    "price": 35.99,
+    "old_price": 49.99,
+    "category": "Sweaters",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Grey", "Brown"],
+    "rating": 4.3,
+    "stock": 40,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Warm pullover with a high neck for winter comfort."
+  },
+  {
+    "id": 15,
+    "name": "Linen Wide-Leg Pants",
+    "price": 38.50,
+    "old_price": 48.00,
+    "category": "Bottoms",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Beige", "White"],
+    "rating": 4.2,
+    "stock": 34,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Breathable linen wide-leg pants perfect for summer."
+  },
+  {
+    "id": 16,
+    "name": "V-Neck Midi Dress",
+    "price": 55.00,
+    "old_price": 69.99,
+    "category": "Dresses",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Red", "Black"],
+    "rating": 4.7,
+    "stock": 18,
+    "images": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"
+    ],
+    "description": "Elegant V-neck midi dress suitable for parties or events."
+  },
+  {
+    "id": 17,
+    "name": "Puffer Vest",
+    "price": 29.99,
+    "old_price": 39.99,
+    "category": "Jackets",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "Pink"],
+    "rating": 4.5,
+    "stock": 35,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Lightweight insulated puffer vest for transitional seasons."
+  },
+  {
+    "id": 18,
+    "name": "Yoga Sports Bra",
+    "price": 22.99,
+    "old_price": 29.99,
+    "category": "Activewear",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Black", "Blue"],
+    "rating": 4.1,
+    "stock": 60,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Comfortable sports bra with breathable fabric."
+  },
+  {
+    "id": 19,
+    "name": "Knit Cardigan",
+    "price": 40.99,
+    "old_price": 55.00,
+    "category": "Sweaters",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Beige", "Grey"],
+    "rating": 4.6,
+    "stock": 27,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Cozy open-front cardigan for layering."
+  },
+  {
+    "id": 20,
+    "name": "Wrap Mini Skirt",
+    "price": 26.99,
+    "old_price": 35.00,
+    "category": "Skirts",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "Red"],
+    "rating": 4.2,
+    "stock": 45,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "description": "Stylish wrap skirt with adjustable waist tie."
+  }
+]
