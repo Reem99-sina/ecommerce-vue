@@ -1,50 +1,51 @@
-# e-commerce-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+E-Commerce Vue 3 Project
+Project Overview
 
-## Recommended IDE Setup
+This is a modern e-commerce web application built using Vue 3, Vite, and Vue Router. The project implements dynamic routing, lazy-loaded views, and a responsive interface to simulate an online shopping experience.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Users can browse products, view individual product details, manage their cart, and proceed to checkout.
 
-## Recommended Browser Setup
+Features
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Homepage (/): Landing page with featured products or categories.
 
-## Customize configuration
+Shop Page (/shop): Displays all products with filtering and sorting options.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Product Details (/product/:id): Shows detailed information about a selected product using dynamic routing.
 
-## Project Setup
+Shopping Cart (/cart): Users can add, remove, and update product quantities.
 
-```sh
+Checkout (/checkout): Collects user information and allows proceeding to payment.
+
+Technical Highlights
+
+Built with Vue 3 Composition API for modular and reactive code.
+
+Uses Vite for fast development builds and optimized production builds.
+
+Vue Router configured for:
+
+Lazy-loading route components for improved performance.
+
+Dynamic routing for product pages (/product/:id).
+
+State management with Pinia / Vuex (if used) for cart and checkout data.
+
+Responsive design using Tailwind CSS.
+
+Installation & Setup
+# Clone repository
+git clone <your-repo-url>
+
+# Navigate to project folder
+cd your-project-folder
+
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Start development server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
