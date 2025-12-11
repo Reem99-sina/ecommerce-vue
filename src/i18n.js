@@ -32,7 +32,13 @@ const messages = {
     continue: 'Continue',
     checkout: 'CheckOut',
     contactInfo: 'Contact info',
-    shippingAddress:"Shipping address"
+    shippingAddress: 'Shipping address',
+    payment: {
+      successTitle: 'Payment Successful 🎉',
+      successMessage: 'Your payment was completed successfully!',
+      cancelTitle: 'Payment Cancelled ❌',
+      cancelMessage: 'Your payment was not completed.',
+    },
   },
   ar: {
     welcome: 'مرحبا',
@@ -63,8 +69,14 @@ const messages = {
     total: 'المجموع الكلي',
     continue: 'تابع',
     checkout: 'الدفع',
-    shippingAddress:"عنوان الشحن",
+    shippingAddress: 'عنوان الشحن',
     contactInfo: 'معلومات الاتصال',
+    payment: {
+      successTitle: 'تم الدفع بنجاح 🎉',
+      successMessage: 'تم إكمال عملية الدفع بنجاح!',
+      cancelTitle: 'تم إلغاء الدفع ❌',
+      cancelMessage: 'لم يتم إتمام عملية الدفع.',
+    },
   },
 }
 

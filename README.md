@@ -39,7 +39,7 @@ Installation & Setup
 git clone <your-repo-url>
 
 # Navigate to project folder
-cd your-project-folder
+cd e-commerce-vue
 
 # Install dependencies
 npm install

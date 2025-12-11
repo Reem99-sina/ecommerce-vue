@@ -49,6 +49,7 @@
 
         <ArrowIcon :width="60" :height="30" />
       </CustomButton>
+
     </div>
   </Form>
 </template>
@@ -82,7 +83,7 @@ const pay = async () => {
   const stripe = await stripePromise
 
   // Call your backend to create a checkout session
-  const res = await fetch('http://localhost:3000/api/create-checkout-session', { method: 'POST' })
+  const res = await fetch('https://e-commerce-strip.vercel.app/api/create-checkout-session', { method: 'POST' })
   const data = await res.json()
   window.open(data.url, '_blank')
 
