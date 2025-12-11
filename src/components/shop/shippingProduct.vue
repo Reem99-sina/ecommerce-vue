@@ -83,7 +83,12 @@ const pay = async () => {
   const stripe = await stripePromise
 
   // Call your backend to create a checkout session
-  const res = await fetch('https://e-commerce-strip.vercel.app/api/create-checkout-session', { method: 'POST' })
+  const res = await fetch('https://e-commerce-strip.vercel.app/api/create-checkout-session', {
+    method: 'POST', body: {
+      products: store.cart,
+      shipping: store.user
+    }
+  })
   const data = await res.json()
   window.open(data.url, '_blank')
 
