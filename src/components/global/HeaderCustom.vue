@@ -16,8 +16,10 @@ import CustomButton from '@/components/global/Button.vue'
       <ul class="md:flex hidden">
         <RouterLink to="/" exact class="text-(--color-burgundy)">{{
           $t('home')
-        }}</RouterLink>
-
+          }}</RouterLink>
+        <RouterLink to="/shop" exact class="text-(--color-burgundy)">{{
+          $t('shop')
+          }}</RouterLink>
       </ul>
     </div>
     <!-- <CustomButton @click="toggleMenu">
@@ -45,8 +47,10 @@ import CustomButton from '@/components/global/Button.vue'
     <ul class="flex flex-col">
       <RouterLink to="/" exact class="text-(--color-gray) font-bold! text-xl!">{{
         $t('home')
-      }}</RouterLink>
-
+        }}</RouterLink>
+      <RouterLink to="/shop" exact class="text-(--color-gray) font-bold! text-xl!">{{
+        $t('shop')
+        }}</RouterLink>
     </ul>
   </CustomDrawer>
 </template>

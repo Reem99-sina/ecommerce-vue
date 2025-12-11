@@ -1,15 +1,20 @@
 <template>
-  <div class="flex flex-wrap md:grid grid-cols-4  container py-3 min-h-[80vh] items-center">
-    <div class="flex-1 md:col-span-3">
+  <div class="flex flex-wrap md:grid grid-cols-4 gap-4  container py-6 min-h-[80vh] items-center">
+    <div class="w-full md:col-span-3">
       <div class="gap-2  py-3">
         <div v-if="store.cart.length == 0" class="flex items-center flex-col justify-start">
           <CartIcon width="512" height="512" />
           <h3 class="font-bold text-xl text-gray-400">{{ $t('noProductInCart') }}</h3>
         </div>
-        <Swiper v-if="store.cart.length > 0" :slides-per-view="2" :space-between="50">
+        <Swiper  :breakpoints="{
+          640: { slidesPerView: 1, spaceBetween: 20 }, // 2 slides on ~700px
+          768: { slidesPerView: 2, spaceBetween: 30 },
+          1024: { slidesPerView: 2, spaceBetween: 40 },
+          1280: { slidesPerView: 3, spaceBetween: 50 }
+        }" :modules="[Navigation, Pagination]" navigation pagination grab-cursor="true" class="mySwiper">
           <SwiperSlide v-for="product in store.cart" :key="product.id" class="flex! gap-2 justify-center">
             <div>
-              <img :src="product.images[0]" class='w-[265px]' />
+              <img :src="product.images[0]" class='w-[265px] h-[265px]' />
               <p class="text-gray-400">{{ product.category }}</p>
               <div class="flex gap-2 justify-between">
                 <h2>{{ product.name }}</h2>
@@ -39,7 +44,7 @@
       </div>
     </div>
 
-    <div class="flex-1 md:col-span-1">
+    <div class="w-full md:col-span-1">
       <orderCart />
     </div>
   </div>
@@ -49,7 +54,13 @@ import { useCounterStore } from '@/stores/counter'
 import CustomButton from '@/components/global/Button.vue'
 import CartIcon from '@/components/icons/emptyIcon.vue'
 import orderCart from '@/components/shop/orderCart.vue'
-import 'swiper/css';
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/vue";
+
 
 const store = useCounterStore()
 

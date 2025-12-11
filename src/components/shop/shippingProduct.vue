@@ -63,6 +63,7 @@ import { computed, ref } from 'vue';
 import { Form, Field, defineRule, configure } from "vee-validate";
 import * as yup from "yup";
 import { loadStripe } from '@stripe/stripe-js'
+const apiUrl = import.meta.env.VITE_API_URL;
 
 const store = useCounterStore()
 
@@ -83,11 +84,13 @@ const pay = async () => {
   const stripe = await stripePromise
 
   // Call your backend to create a checkout session
-  const res = await fetch('https://e-commerce-strip.vercel.app/api/create-checkout-session', {
-    method: 'POST', body: {
+  const res = await fetch(apiUrl + '/api/create-checkout-session', {
+    method: 'POST', headers: {
+      "Content-Type": "application/json"
+    }, body: JSON.stringify({
       products: store.cart,
       shipping: store.user
-    }
+    })
   })
   const data = await res.json()
   window.open(data.url, '_blank')
